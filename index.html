@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+  <div class="bg-dark" >
+    <nav class="navbar navbar-expand-lg  bg-success ">
+      <div class="container-fluid ">
+        <a class="navbar-brand" href="#">Navbar w/ text</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="home.html">Features</a>
+            </li>
+          </ul>
+          <span class="navbar-text">
+            Navbar text with an inline element
+          </span>
+        </div>
+      </div>
+      </nav> 
+      <div class="d-flex align-items-center m-4">
+        <div class="d-flex justify-content-center">
+          <h1 class="text-center m-5 fs-1 text-light">this form for input <br>name and password</h1>
+        </div>
+        <div class="bg-light col-5 d-flex m-auto rounded">
+            <form>
+                <div class="d-flex justify-content-center ">
+                    <div class="mb-2 col-5 m-2">
+                      <label for="exampleInputFirstName" class="form-label">First Name</label>
+                      <input type="text" class="form-control" id="exampleInputFirstName" aria-describedby="FirstNamelHelp">
+                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-2 col-5 m-2">
+                      <label for="exampleInputLastName" class="form-label">LastName</label>
+                      <input type="text" class="form-control" id="exampleInputLastName">
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <div class="mb-2 col-5 m-2">
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-2 col-5 m-2">
+                      <label for="exampleInputPassword1" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                </div>
+                <div class=" m-5">
+                  <div class="mb-2 form-check ">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                  </div>
+                  <button type="submit" class="btn btn-primary ">Submit</button>
+              </div>
+          </form> 
+        </div>
+        </div>   
+        <div class=" container mt-2 m-5 text-light">
+            <h2>Modal Example</h2>
+            <p>Click on the button to open the modal.</p>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+              Open modal
+            </button>
+        </div>
+        <!-- The Modal -->
+        <div class="modal fade" id="myModal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Modal Heading</h4>
+                  <div class="container mt-2">
+                    <h2>Multiple Inputs and Helpers</h2>
+                    <p>Add multiple inputs or addons:</p>
+                    
+                    <!-- Multiple inputs -->
+                    <div class="input-group mb-2">
+                      <span class="input-group-text">Person</span>
+                      <input type="text" class="form-control" placeholder="First Name">
+                      <input type="text" class="form-control" placeholder="Last Name">
+                    </div>
+                  
+                    <!-- Multiple addons / help text -->
+                    <div class="input-group mb-2">
+                      <span class="input-group-text">One</span>
+                      <span class="input-group-text">Two</span>
+                      <span class="input-group-text">Three</span>
+                      <input type="text" class="form-control">
+                    </div>
+                  </div>
+                </div>
+                <!-- Modal body -->
+                <div class="modal-body">
+                  <!-- Modal body.. -->
+                </div>
+                    
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+            <div class="container mt-2">
+                <h2>Input Group</h2>
+                <p>The .input-group class is a container to enhance an input by adding an icon, text or a button in front or behind the input field as a "help text".</p>
+                <p>Use the .input-group-text class to style the specified help text.</p>
+              </div>
+        </div>  
+    </div>
+    
+</body>
+<script src="js/bootstrap.bundle.min.js"></script>
+</html>
+
